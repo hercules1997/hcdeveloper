@@ -10,9 +10,11 @@ const initTypingAnimation = () => {
 
     const span = document.querySelector('#sobre .banner .intro .title span')
     const paragraph = document.querySelector('#sobre .banner .intro .title p')
-
+ const copyright = document.querySelector('#copyright')
     const typingAnimation = (element) => {
+    copyright.innerHTML = `Copyright  ${date.getFullYear()} - Todos os direitos reservados `
 
+        
         if (element == span) {
             element.innerHTML = 'Hércules Chaves Andrade'
             const textToArray = element.innerHTML.split('')
