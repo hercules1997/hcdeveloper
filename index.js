@@ -1,4 +1,4 @@
-
+const date = new Date
 
 //? MUDA O TEMA DE DARK PARA LIGTH
 const initLightMode = () => {
@@ -12,7 +12,7 @@ const initTypingAnimation = () => {
     const paragraph = document.querySelector('#sobre .banner .intro .title p')
  const copyright = document.querySelector('#copyright')
     const typingAnimation = (element) => {
-    copyright.innerHTML = `Copyright  ${date.getFullYear()} - Todos os direitos reservados - criado by Hércules Chaves `
+    copyright.innerHTML = ` © Copyright  ${date.getFullYear()} - Todos os direitos reservados - criado by Hércules Chaves `
 
         
         if (element == span) {
