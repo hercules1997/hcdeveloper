@@ -12,7 +12,7 @@ const initTypingAnimation = () => {
     const paragraph = document.querySelector('#sobre .banner .intro .title p')
  const copyright = document.querySelector('#copyright')
     const typingAnimation = (element) => {
-    copyright.innerHTML = `Copyright  ${date.getFullYear()} - Todos os direitos reservados `
+    copyright.innerHTML = `Copyright  ${date.getFullYear()} - Todos os direitos reservados - criado by Hércules Chaves `
 
         
         if (element == span) {
